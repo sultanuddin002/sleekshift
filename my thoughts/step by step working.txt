@@ -1,0 +1,11 @@
+tools required
+
+database:
+1. mysql workbench
+2. eclipse with J2EE
+
+-> creating database
+1. in mysql workbench, first create new model (EER model). there you have to create tables and assign correct datatype to the columns
+2. Once the model is finalize, you need to save the model using export and mysql script. Once its saved, go to the mysql terminal and open .sql file.
+3. select all the script using ctrl+a, then press execute button, it will execute complete. if you didn't encounter any error, just refresh the schemas, there you will see your db name.
+

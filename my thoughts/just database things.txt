@@ -25,7 +25,7 @@ days_open_week -> int
 office_start_time -> time
 office_closing_time -> time
 special_days_timing_id_special_days_timing -> int FK (special_days_timing)
-
+users_id_users -> int
 
 3. employment_details
 id_employment_details -> int
@@ -35,7 +35,6 @@ employee_id -> varchar(50)
 job_title -> varchar(50)
 apply_for_approval -> tinyint(1)
 user_id_users -> int FK (users)
-company_details_id_company -> int FK (company details)
 duty_hours_week -> int
 rate_per_hours -> decimal(15,2)
 

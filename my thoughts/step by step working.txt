@@ -9,3 +9,15 @@ database:
 2. Once the model is finalize, you need to save the model using export and mysql script. Once its saved, go to the mysql terminal and open .sql file.
 3. select all the script using ctrl+a, then press execute button, it will execute complete. if you didn't encounter any error, just refresh the schemas, there you will see your db name.
 
+-> version control
+tools required
+1. smartgit 
+
+-> creating repo
+1. open smartgit and create new/existing repo, select the directory where the database is saved. the program will automatically create repo.
+2.  now visit github.com and into your account, create new repo and give it a name. once, it created, a remote url will generated, copy it then go to smartgit>remote>add. paste the url and press ok, it will add the remote git.
+3. now, inside message path, you'll see create readme.md at the bottom, first select all files, stage and commit it. 
+4.  after commit, right click over "Create Readme.md" and select "Rebase HEAD to", it will take some time, then rebase origin and master together. 
+5. after rebase, push your code to the git and make sure, the master show newest version.
+
+

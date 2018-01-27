@@ -1,0 +1,1 @@
+1. To execute more then one table at the same time is not possible in mysql, first run a table that's interlinked, then run 2nd table whose using foreign key of the table 1

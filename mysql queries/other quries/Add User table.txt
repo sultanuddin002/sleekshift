@@ -1,0 +1,5 @@
+__________ add user table 'sultan'___________________________
+
+INSERT INTO sleekshift.users(id_users, username, password, first_name, last_name, email, phone_number, profile_image_location, user_active, user_signout) VALUES (null,'sultanuddin002','admin','sultan','shaikh','sultan@gmail.com','08767262728','c://url.com',0,0);
+
+
